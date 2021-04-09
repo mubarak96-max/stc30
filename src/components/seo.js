@@ -28,6 +28,9 @@ function SEO({ description, title, keywords }) {
     <Helmet htmlAttributes={{ lang: "en" }} title={title}>
       <meta name="description" content={description} />
       <meta name="keywords" content={keywords} />
+      <meta property="og:type" content="article" />
+      <meta property="og:type" content="../images/s4.jpg" />
+      <meta property="og:site_name" content="https://stemcellstc30.xyz/" />
     </Helmet>
   )
 }
