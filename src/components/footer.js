@@ -20,7 +20,7 @@ function Footer() {
           <FaWhatsappSquare color="black" size={35} />
         </a>
         <a
-          href="https://www.facebook.com/STC30-Stem-Cell-therapy"
+          href="https://www.facebook.com/stemcellzstc30"
           className="facebook"
           target="_blank"
         >

@@ -30,20 +30,14 @@ function SEO({ description, title, keywords }) {
       <meta name="keywords" content={keywords} />
       <meta property="og:title" content="STEM CELL THERAPY STC30"></meta>
       <meta property="og:type" content="article" />
-      <meta
-        property="og:image"
-        content="https://www.facebook.com/100254115105010/photos/a.100383638425391/120630096400745/?__cft__[0]=AZXZslyzbbYwN8bO5PwErS9M0CxmUSCHDh9SfABuYg3sZUVjgU0-slTK8KSY1bK24pQmVwLBWKWNiXopSA_XucjMW2F1xm9JJdHizfiqwTqAGD1KTMvodgfWSWBqoT_vNpz2yEzkQ8rvPlM9jOaXq02Rh6HbsFy08KouhKRNjhhOWw&__tn__=EH-R"
-      />
+      <meta property="og:image" content="../images/s4.jpg" />
       <meta property="og:url" content="https://stemcellstc30.xyz/" />
       <meta name="twitter:title" content=" STEM CELL THERAPY STC30" />
       <meta
         name="twitter:description"
         content=" STC30 a breakthrough in medical science with the stem cell technology, the origin of stem cell treatment in curing and prevention of diseases. A plant-based stem cell which uses stem cells to manage, prevent or address several health complications  manufactured by Mibelle Bio Chemistry in Zurich Switzerland and distributed worldwide by SuperLifeWorld based in Malaysia."
       />
-      <meta
-        name="twitter:image"
-        content="https://www.facebook.com/100254115105010/photos/a.100383638425391/120630096400745/?__cft__[0]=AZXZslyzbbYwN8bO5PwErS9M0CxmUSCHDh9SfABuYg3sZUVjgU0-slTK8KSY1bK24pQmVwLBWKWNiXopSA_XucjMW2F1xm9JJdHizfiqwTqAGD1KTMvodgfWSWBqoT_vNpz2yEzkQ8rvPlM9jOaXq02Rh6HbsFy08KouhKRNjhhOWw&__tn__=EH-R"
-      />
+      <meta name="twitter:image" content="../images/s4.jpg" />
       <meta name="twitter:card" content="summary_large_image" />
     </Helmet>
   )
