@@ -18,9 +18,7 @@ const Image6 = ({ img }) => {
   const data = useStaticQuery(query)
   return (
     <div>
-      <Background img={data.file.childImageSharp.fluid}>
-        <p>Since 2015, the STC30 has been proven in more than 120 countries</p>
-      </Background>
+      <Background img={data.file.childImageSharp.fluid}></Background>
     </div>
   )
 }

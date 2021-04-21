@@ -1,8 +1,17 @@
 import React from "react"
+import { Link } from "gatsby"
+import Layout from "../components/layout"
+import SEO from "../components/seo"
+import Questions from "../components/questions"
 
 function About() {
   return (
-    <>
+    <Layout>
+      <SEO
+        title="About STC30"
+        keywords="natural medicine, home remedy, fda approved, modern medicine, the cure, mibelle biochemistry, superlife"
+        description="STC30 is an acronym for Super Life Total Care 30 or Stem Cell 30 days of transformation, meaning that one has 30 days to transform their lives using the stem cell. It is a plant-based stem cell, a product ahead of its time which uses stem cells to manage, prevent or address several health complications. It is the origin of stem cell treatment in curing and prevention of diseases"
+      />
       <section className="about">
         <video
           src="/stc30-vid.mp4"
@@ -86,7 +95,7 @@ function About() {
             and a certified member of The Natural Products Association. The
             Laboratory meets National Science Certification which conforms with
             FDA mandated Good Manufacturing Practice (GMP) Guidelines for
-            dietary supplements and it is distributed worldwide by{" "}
+            dietary supplements and it is distributed worldwide by
             <a href="http://www.superlifeworld.com" target="_blank">
               SuperLife
             </a>
@@ -194,8 +203,10 @@ function About() {
             and the STC30 is here for you.
           </p>
         </div>
+
+        <Questions />
       </section>
-    </>
+    </Layout>
   )
 }
 

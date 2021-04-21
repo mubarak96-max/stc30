@@ -18,9 +18,7 @@ const Image3 = ({ img }) => {
   const data = useStaticQuery(query)
   return (
     <div>
-      <Background img={data.file.childImageSharp.fluid}>
-        <p>A box contains 15 sachets</p>
-      </Background>
+      <Background img={data.file.childImageSharp.fluid}></Background>
     </div>
   )
 }

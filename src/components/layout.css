@@ -13,7 +13,7 @@ body {
 /* background slider */
 
 .background-image {
-  min-height: 65vh;
+  min-height: 75vh;
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -23,7 +23,7 @@ body {
 }
 
 .overlay {
-  background-color: rgba(59, 47, 47, 0.6);
+  background-color: rgba(59, 47, 47, 0.1);
   min-height: inherit;
   margin: 0;
   padding: 0;
@@ -45,7 +45,7 @@ nav {
   position: fixed;
   top: 0;
   left: 0;
-  height: 2rem;
+  height: 3rem;
   width: 100%;
   z-index: 999;
 }
@@ -57,6 +57,12 @@ nav {
   align-items: center;
 }
 
+.nav-header span {
+  display: flex;
+  justify-content: center;
+  font-size: 0.65rem;
+}
+
 .title a {
   text-transform: uppercase;
   font-size: 0.7rem;
@@ -65,20 +71,37 @@ nav {
   font-weight: 800;
 }
 
-.links button {
+.links a {
+  color: rgb(245, 137, 13);
+  margin-left: 0.4rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.order-btn {
   color: white;
   text-transform: capitalize;
   text-decoration: none;
-  margin-right: 1rem;
-  font-weight: 650;
+  margin: 0 1rem;
   font-size: 0.7rem;
   background: blue;
   outline: none;
-  border: 0.8px solid rgb(78, 75, 75);
+  border-radius: 2rem;
+  border: none;
+  position: fixed;
+  top: 40%;
+  right: 0;
 }
 
 .hide-order {
   display: none;
+}
+
+.more-link {
+  font-size: 0.8rem;
+  color: blue;
+  margin-left: 0.3rem;
 }
 
 form {
@@ -107,6 +130,11 @@ form button {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: fixed;
+  top: 40%;
+  background-color: rgb(235, 203, 203);
+  width: 100%;
+  right: 20%;
 }
 
 /* homepage */
@@ -119,17 +147,24 @@ form button {
 }
 
 .info img {
-  width: 95%;
-  display: block;
+  width: 90%;
   text-align: center;
 }
 
 /* diseases */
+.diseases-intro {
+  margin-top: 5rem;
+}
+
 .diseases-intro p {
   font-size: 0.9rem;
   line-height: 2rem;
   margin: 1.6rem 1.8rem;
   color: rgb(23, 73, 57);
+}
+
+.diseases-intro img {
+  width: 95%;
 }
 
 .single-disease {
@@ -156,8 +191,20 @@ form button {
 }
 
 .diseases-list {
-  background: whitesmoke;
   margin: 1.2rem 1.5rem;
+}
+
+.disease {
+  margin: 3rem 0.5rem 0 0.7rem;
+}
+
+.disease img {
+  width: 94%;
+}
+
+.disease h1 {
+  font-size: 1.2rem;
+  font-weight: 550;
 }
 
 /* about */
@@ -230,6 +277,11 @@ footer a {
 }
 
 @media screen and (min-width: 720px) {
+  body {
+    margin: 0 9rem;
+    padding: 0;
+  }
+
   nav {
     height: 4rem;
   }
@@ -239,11 +291,24 @@ footer a {
   }
 
   .title a {
+    font-size: 1.4rem;
+  }
+
+  .links a {
+    margin-left: 0.6rem;
     font-size: 1rem;
   }
 
-  .links button {
+  .order-btn {
     font-size: 1rem;
+  }
+
+  .nav-header span {
+    font-size: 0.8rem;
+  }
+
+  .background-image {
+    min-height: 98vh;
   }
 
   .hide-order {
@@ -270,36 +335,61 @@ footer a {
   /* homepage */
 
   .info p {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     line-height: 2.6rem;
     margin: 1.7rem 2.6rem;
   }
 
+  .info img {
+    width: 60%;
+  }
+
   /* diseases */
   .diseases-intro p {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     line-height: 2.2rem;
     margin: 1.7rem 1.9rem;
   }
 
+  .diseases-intro img {
+    width: 60%;
+  }
+
   .single-disease p {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     line-height: 2rem;
   }
 
   .disease-title h2 {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
+  }
+
+  .disease {
+    margin: 6rem 0.5rem 0 0.7rem;
+  }
+
+  .disease img {
+    width: 65%;
+  }
+
+  .disease h1 {
+    font-size: 1.1rem;
+    font-weight: 550;
   }
 
   /* about */
 
   .about-info {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     line-height: 1.95rem;
   }
 
   .about-info h2 {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
+  }
+
+  .about-info img {
+    width: 60%;
   }
 
   .questions {
@@ -314,7 +404,7 @@ footer a {
   .question p,
   h5 {
     margin-bottom: 0.8rem;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     line-height: 2.3rem;
   }
 

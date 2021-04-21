@@ -18,11 +18,7 @@ const Image8 = ({ img }) => {
   const data = useStaticQuery(query)
   return (
     <div>
-      <Background img={data.file.childImageSharp.fluid}>
-        <p>
-          The origin of stem cell treatment in curing and prevention of diseases
-        </p>
-      </Background>
+      <Background img={data.file.childImageSharp.fluid}></Background>
     </div>
   )
 }

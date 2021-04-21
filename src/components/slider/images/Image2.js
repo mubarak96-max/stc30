@@ -4,7 +4,7 @@ import Background from "../background"
 
 const query = graphql`
   {
-    file(relativePath: { eq: "s2.jpg" }) {
+    file(relativePath: { eq: "s2.jpeg" }) {
       childImageSharp {
         fluid(quality: 95) {
           ...GatsbyImageSharpFluid
@@ -18,9 +18,7 @@ const Image2 = ({ img }) => {
   const data = useStaticQuery(query)
   return (
     <div>
-      <Background img={data.file.childImageSharp.fluid}>
-        <p>100% natural, no side effects</p>
-      </Background>
+      <Background img={data.file.childImageSharp.fluid}></Background>
     </div>
   )
 }

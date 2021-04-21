@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import { FaFacebookSquare, FaWhatsappSquare } from "react-icons/fa"
 
-function Footer() {
+function Footer({ setShowOrder }) {
   return (
     <footer>
       <div className="partner-icons">
