@@ -13,29 +13,14 @@ body {
 /* background slider */
 
 .background-image {
-  min-height: 75vh;
-  width: 100%;
+  min-height: 70vh;
+  width: 100vw;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   margin: 0;
   padding: 0;
-}
-
-.overlay {
-  background-color: rgba(59, 47, 47, 0.1);
-  min-height: inherit;
-  margin: 0;
-  padding: 0;
-}
-
-.background-content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 1rem;
-  color: rgb(250, 255, 204);
-  margin-top: 2rem;
+  background-color: transparent;
 }
 
 /* navbar */
@@ -69,6 +54,10 @@ nav {
   color: rgb(18, 187, 18);
   text-decoration: none;
   font-weight: 800;
+}
+
+.links {
+  margin-right: 0.5rem;
 }
 
 .links a {
@@ -105,7 +94,8 @@ nav {
 }
 
 form {
-  margin-top: 1rem;
+  margin: 1rem 0 0 0.5rem;
+  padding-left: 1.3rem;
 }
 
 form input {
@@ -124,6 +114,7 @@ form button {
   border: 1px solid rgb(7, 11, 240);
   outline: none;
   color: white;
+  margin-left: 1.3rem;
 }
 
 .order {
@@ -135,6 +126,7 @@ form button {
   background-color: rgb(235, 203, 203);
   width: 100%;
   right: 20%;
+  padding-left: 1.3rem;
 }
 
 /* homepage */
@@ -142,13 +134,14 @@ form button {
 .info p {
   font-size: 1rem;
   line-height: 2.3rem;
-  margin: 1.6rem 2.5rem;
+  margin: 1.6rem 2rem;
   color: rgb(23, 73, 57);
 }
 
 .info img {
   width: 90%;
   text-align: center;
+  display: block;
 }
 
 /* diseases */
