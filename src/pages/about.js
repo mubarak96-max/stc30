@@ -9,7 +9,7 @@ function About() {
     <Layout>
       <SEO
         title="About STC30"
-        keywords="natural medicine, home remedy, fda approved, modern medicine, the cure, mibelle biochemistry, superlife"
+        keywords="natural medicine, home remedy, fda approved, modern medicine, the cure, mibelle biochemistry, superlife, stem cell research, stem cell benefits, stem cell therapy, applications of stem cells, stem cell medicine, super life STC30, natural medicine, stc30 side effects, health benefits of stc30"
         description="STC30 is an acronym for Super Life Total Care 30 or Stem Cell 30 days of transformation, meaning that one has 30 days to transform their lives using the stem cell. It is a plant-based stem cell, a product ahead of its time which uses stem cells to manage, prevent or address several health complications. It is the origin of stem cell treatment in curing and prevention of diseases"
       />
       <section className="about">
