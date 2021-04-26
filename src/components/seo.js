@@ -39,6 +39,7 @@ function SEO({ description, title, keywords }) {
       />
       <meta name="twitter:image" content="/s2.jpeg" />
       <meta name="twitter:card" content="summary_large_image" />
+      <meta name="google-site-verification" content="ulNrJZk3EYKKHxPIRzPylM-8X-hwNu6dETdY9NQvTvo" />
     </Helmet>
   )
 }
