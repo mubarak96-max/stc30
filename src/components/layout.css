@@ -3,6 +3,7 @@ html {
 }
 
 body {
+  position: relative;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -13,26 +14,103 @@ body {
 /* background slider */
 
 .background-image {
-  min-height: 70vh;
-  width: 100vw;
+  min-height: 75vh;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
+}
+
+.overlay {
+  background-color: rgb(56, 52, 52, 0.8);
+  color: white;
+  min-height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background-content {
+  color: white;
   margin: 0;
-  padding: 0;
-  background-color: transparent;
+  padding: 8rem 0 0 0.2rem;
+}
+
+.background-content h1 {
+  color: yellow;
+  margin-bottom: 0;
+  font-size: 1.2rem;
+}
+
+.background-content h3 {
+  margin-top: 0;
+  font-size: 1.1rem;
+}
+
+.background-content p {
+  margin: 1rem;
+  line-height: 1.9rem;
+  color: white;
 }
 
 /* navbar */
 
 nav {
   background-color: white;
+  display: block;
   position: fixed;
   top: 0;
   left: 0;
-  height: 3rem;
   width: 100%;
   z-index: 999;
+  margin-bottom: 2rem;
+}
+
+.order-links {
+  display: flex;
+  color: white;
+  font-size: 0.6rem;
+  width: 100%;
+  justify-content: center;
+}
+
+.order-link a,
+.order-btn,
+.inquiry-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0.4rem 1.2rem;
+  width: auto;
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+}
+
+.order-btn,
+.inquiry-btn {
+  border: none;
+  outline: none;
+  color: inherit;
+  font-size: inherit;
+}
+
+.orange,
+.order-btn {
+  background: orangered;
+}
+
+.light-blue {
+  background: skyblue;
+}
+
+.black,
+.inquiry-btn {
+  background: black;
+}
+
+.green {
+  background: green;
 }
 
 .head {
@@ -42,191 +120,127 @@ nav {
   align-items: center;
 }
 
-.nav-header span {
-  display: flex;
-  justify-content: center;
-  font-size: 0.65rem;
-}
-
-.title a {
+.title h1 {
   text-transform: uppercase;
-  font-size: 0.7rem;
+  font-size: 1.4rem;
   color: rgb(18, 187, 18);
   text-decoration: none;
-  font-weight: 800;
-}
-
-.links {
-  margin-right: 0.5rem;
-}
-
-.links a {
-  color: rgb(245, 137, 13);
-  margin-left: 0.4rem;
-  font-size: 0.8rem;
   font-weight: 600;
-  text-decoration: none;
+  padding: 0 1.1rem;
+  margin-bottom: 1.2rem;
+  font-stretch: expanded;
 }
 
-.order-btn {
-  color: white;
-  text-transform: capitalize;
-  text-decoration: none;
-  margin: 0 1rem;
-  font-size: 0.7rem;
-  background: blue;
-  outline: none;
-  border-radius: 2rem;
-  border: none;
-  position: fixed;
-  top: 35%;
-  right: 0;
-}
-
-.hide-order {
-  display: none;
-}
-
-.more-link {
-  font-size: 0.8rem;
-  color: blue;
-  margin-left: 0.3rem;
-}
-
+/* order and inquiry form */
 form {
   margin: 1rem 0 0 0.5rem;
   padding-left: 1.3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 form input {
   display: block;
   padding: 0.2rem;
-  margin: 0.6rem;
+  margin: 0.4rem;
   outline: none;
-  width: 100%;
-  background: turquoise;
+  width: 90%;
+  background: white;
+  color: black;
   border: none;
   font-size: 0.8rem;
+  border-radius: 1.5rem;
+  font-weight: 700;
+}
+
+textarea {
+  margin-bottom: 0.4rem;
+  outline: none;
 }
 
 form button {
-  background-color: red;
-  border: 1px solid rgb(7, 11, 240);
+  background-color: blue;
+  border: none;
   outline: none;
   color: white;
-  margin-left: 1.3rem;
+  padding: 0.3rem;
 }
 
-.order {
+.order,
+.inquiry {
   display: flex;
   justify-content: center;
   align-items: center;
+  align-content: center;
   position: fixed;
-  top: 35%;
-  background-color: rgb(235, 203, 203);
+  top: 38%;
+  background: linear-gradient(
+    to right top,
+    rgb(67, 176, 219, 0.8),
+    rgb(224, 239, 245, 0.6)
+  );
   width: 100%;
-  right: 20%;
-  padding-left: 1.3rem;
+
+  padding-bottom: 1rem;
+  z-index: 999;
+}
+
+.hide-order,
+.hide-inquiry {
+  display: none;
+}
+
+.order span,
+.inquiry span {
+  border: 1px solid black;
+  background: white;
+  color: #333;
+  font-size: 0.6rem;
+  font-weight: 800;
+  padding: 0.3rem;
+}
+
+.close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: red;
+  border: none;
+  color: white;
 }
 
 /* homepage */
+.intro {
+  color: rgb(241, 33, 33);
+  margin: 0.8rem 1.2rem;
+  font-size: 1.3rem;
+}
 
-.info p {
-  font-size: 1rem;
-  line-height: 2.3rem;
-  margin: 1.6rem 2rem;
-  color: rgb(23, 73, 57);
+.video {
+  padding: 1rem;
 }
 
 .info img {
   width: 90%;
-  text-align: center;
-  display: block;
 }
 
-/* diseases */
-.diseases-intro {
-  margin-top: 5rem;
+.info {
+  margin: 1rem 1.2rem;
+  border: 1px solid lightblue;
+  padding: 0.7rem;
 }
 
-.diseases-intro p {
-  font-size: 0.9rem;
-  line-height: 2rem;
-  margin: 1.6rem 1.8rem;
-  color: rgb(23, 73, 57);
-}
-
-.diseases-intro img {
-  width: 95%;
-}
-
-.single-disease {
-  margin: 0.5rem 1.1rem;
-  background-color: #fff;
-}
-
-.single-disease p {
-  font-size: 0.9rem;
-  line-height: 1.8rem;
-}
-
-.disease-title h2 {
-  color: rgb(153, 45, 6);
+.info h2 {
   text-transform: capitalize;
-  font-size: 1.2rem;
+  color: rgb(90, 195, 236);
 }
 
-.disease-title button {
-  background-color: transparent;
-  border: none;
-  text-decoration: underline;
-  outline: none;
-}
-
-.diseases-list {
-  margin: 1.2rem 1.5rem;
-}
-
-.disease {
-  margin: 3rem 0.5rem 0 0.7rem;
-}
-
-.disease img {
-  width: 94%;
-}
-
-.disease h1 {
-  font-size: 1.2rem;
-  font-weight: 550;
-}
-
-/* about */
-
-.about {
-  margin-top: 4rem;
-}
-
-.about-info {
-  margin: auto 1.3rem;
-  font-size: 0.9rem;
-  line-height: 1.85rem;
-}
-
-.about-info h2 {
-  color: rgb(100, 26, 26);
-  border-top: solid rgb(14, 45, 102) 2px;
-  font-size: 1.2rem;
-}
-
-.diseases-link {
-  color: #fff;
-  background: black;
-  text-decoration: none;
-  padding: 0.1rem;
-}
-
-.questions {
-  margin: auto 1.1rem;
+.info p {
+  color: #333;
+  font-size: 1.17rem;
+  line-height: 2rem;
 }
 
 .question {
@@ -239,11 +253,35 @@ h5 {
   margin-bottom: 0.6rem;
 }
 
-/* order */
-.order {
-  display: flex;
-  background-color: whitesmoke;
+.testimony-link {
+  background-color: black;
+  text-decoration: none;
+  color: white;
 }
+
+.testimonies {
+  margin-top: 9rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.testimonies iframe{
+  margin: 1rem 0;
+}
+
+.testimonies a {
+  text-decoration: none;
+  position: fixed;
+  background: blue;
+  color: white;
+}
+
+.testimonies img {
+  width: 95%;
+  display: block;
+  margin: 1rem 0;
+}
+
 /* footer */
 
 footer {
@@ -285,28 +323,37 @@ footer a {
 
   .head {
     justify-content: space-around;
+    margin-bottom: 2rem;
   }
 
-  .title a {
-    font-size: 1.4rem;
-  }
-
-  .links a {
-    margin-left: 0.6rem;
-    font-size: 1rem;
-  }
-
-  .order-btn {
-    font-size: 1rem;
-  }
-
-  .nav-header span {
-    font-size: 0.8rem;
+  .title h1 {
+    margin-bottom: 2rem;
   }
 
   .background-image {
-    min-height: 98vh;
-    width: 100vw;
+    min-height: 100vh;
+  }
+
+  .overlay {
+    min-height: 100vh;
+  }
+
+
+  .background-content h1 {
+    color: yellow;
+    margin-bottom: 0;
+    font-size: 1.6rem;
+    padding: 0 2rem;
+  }
+
+  .background-content h3 {
+    font-size: 1.4rem;
+  }
+
+  .background-content p {
+    margin: 1.2rem;
+    line-height: 2.2rem;
+    padding: 0 2rem;
   }
 
   .hide-order {
@@ -324,71 +371,7 @@ footer a {
     font-size: 1.3rem;
   }
 
-  /* background slider */
-
-  .background-image {
-    min-height: 100vh;
-  }
-
-  /* homepage */
-
-  .info p {
-    font-size: 1.1rem;
-    line-height: 2.6rem;
-    margin: 1.7rem 2.6rem;
-  }
-
-  .info img {
-    width: 60%;
-  }
-
-  /* diseases */
-  .diseases-intro p {
-    font-size: 1.1rem;
-    line-height: 2.2rem;
-    margin: 1.7rem 1.9rem;
-  }
-
-  .diseases-intro img {
-    width: 60%;
-  }
-
-  .single-disease p {
-    font-size: 1.1rem;
-    line-height: 2rem;
-  }
-
-  .disease-title h2 {
-    font-size: 1.2rem;
-  }
-
-  .disease {
-    margin: 6rem 0.5rem 0 0.7rem;
-  }
-
-  .disease img {
-    width: 65%;
-  }
-
-  .disease h1 {
-    font-size: 1.1rem;
-    font-weight: 550;
-  }
-
-  /* about */
-
-  .about-info {
-    font-size: 1.1rem;
-    line-height: 1.95rem;
-  }
-
-  .about-info h2 {
-    font-size: 1.2rem;
-  }
-
-  .about-info img {
-    width: 60%;
-  }
+  
 
   .questions {
     margin: auto 1.3rem;
@@ -405,6 +388,12 @@ footer a {
     font-size: 1.1rem;
     line-height: 2.3rem;
   }
+
+  .testimonies img {
+  width: 40%;
+  justify-content: center;
+  align-items: center;
+}
 
   /* footer */
 

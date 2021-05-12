@@ -14,11 +14,15 @@ const query = graphql`
   }
 `
 
-const Image5 = ({ img }) => {
+const Image5 = () => {
   const data = useStaticQuery(query)
   return (
     <div>
-      <Background img={data.file.childImageSharp.fluid}></Background>
+      <Background img={data.file.childImageSharp.fluid}>
+        <h1>SuperLife STC30</h1>
+        <h3>Giving you a new lease of life</h3>
+        <p>STC30 is the origin of the stem cell treatment in curing and prevention of diseases. It can treat and manage more than 140 health complications with no side effects even those formerly classified as incurable. The STC30 will renewrevitalize and regenerate your life. Your life is safe with the STC30.</p>
+      </Background>
     </div>
   )
 }

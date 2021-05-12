@@ -6,7 +6,6 @@ function Footer({ setShowOrder }) {
   return (
     <footer>
       <div className="partner-icons">
-        <img src="/mibelle.png" alt="mibelle agency" />
         <img src="/dhl.png" alt="dhl" />
         <img src="/plt.png" alt="PLT" />
         <img src="/halal.jpg" alt="STC30 Halal" />
