@@ -8,11 +8,10 @@ import Questions from "../components/questions"
 const IndexPage = () => (
   <Layout>
     <SEO
-      title="SuperLife STC30"
-      description="STC30 a breakthrough in medical science with the stem cell technology, the origin of stem cell treatment in curing and prevention of diseases. A plant-based stem cell which uses stem cells to manage, prevent or address several health complications  manufactured by Mibelle Bio Chemistry in Zurich Switzerland and distributed worldwide by SuperLifeWorld based in Malaysia. The STC30 can treat more than 140 diseases even those formerly known as incurable."
+      title="SuperLife STC30 Stem Cell Therapy"
+      description="STC30 the origin of stem cell treatment in curing and prevention of diseases. A plant-based stem cell which uses stem cells to manage, prevent or address several health complications even those formerly known as incurable, manufactured by Mibelle Bio Chemistry in Switzerland and distributed worldwide by SuperLifeWorld based in Malaysia."
       keywords="superlife, stem cell research, stem cell benefits, stem cell therapy, applications of stem cells, stem cell medicine, super life STC30, natural medicine, stc30 side effects, high blood pressure, cancer cure, the cure, sore throat, pink eye, skin peeling, eyes problems, allergies, kidney disease, lung, neck, renal, urinary, cure all, modern medicine, stc30 benefits, best medicine, gout, home remedy, sinusitis, vertigo treatment, fda approved  "
     />
-    {/* <Slider /> */}
     <div className="bg">
       <Image5 />
     </div>
@@ -112,8 +111,8 @@ const IndexPage = () => (
           <p>
             PHYTOCELLTEC MALUS DOMESTICA (UTWILLER SPATLAUBER). Also known as
             the swiss apple found in the swiss alps, it is a liposomal
-            prepartion of apple stem cells. This is different from other apples,
-            it is sour in taste, it can renew its skin if cut and can stay upto
+            preparation of apple stem cells. This is different from other apples,
+            it is sour in taste, it can renew its skin if cut and can stay up to
             six months still fresh. It has similarities to the human cells and
             has anti-aging properties.
           </p>
@@ -208,7 +207,7 @@ const IndexPage = () => (
               regenerates and repair damaged body tissues and organs
             </strong>
             . Since cells are the building blocks of the body, stem cells
-            recieve signals from the brain and go to damaged cells, tissues or
+            receive signals from the brain and go to damaged cells, tissues or
             organs and start rebuilding them.
           </p>
           <img src="/benefits.jpg" alt="benefits of stc30" />

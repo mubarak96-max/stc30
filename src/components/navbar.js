@@ -22,7 +22,7 @@ function Navbar() {
             </button>
           </div>
           <div className="order-link green">
-            <a href="https://api.whatsapp.com/send?phone=256770441205">
+            <a href="https://api.whatsapp.com/send?phone=+256770441205">
               <FaWhatsapp size={23} />
               order via whatsapp
             </a>
