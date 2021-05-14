@@ -9,7 +9,7 @@ const IndexPage = () => (
   <Layout>
     <SEO
       title="SuperLife STC30 Stem Cell Therapy"
-      description="STC30 the origin of stem cell treatment in curing and prevention of diseases. A plant-based stem cell which uses stem cells to manage, prevent or address several health complications even those formerly known as incurable, manufactured by Mibelle Bio Chemistry in Switzerland and distributed worldwide by SuperLifeWorld based in Malaysia."
+      description="STC30 a plant-based stem cell therapy which uses stem cells to manage, prevent or address several health complications even those formerly known as incurable, manufactured by Mibelle Bio Chemistry in Switzerland and distributed worldwide by SuperLifeWorld based in Malaysia."
       keywords="superlife, stem cell research, stem cell benefits, stem cell therapy, applications of stem cells, stem cell medicine, super life STC30, natural medicine, stc30 side effects, high blood pressure, cancer cure, the cure, sore throat, pink eye, skin peeling, eyes problems, allergies, kidney disease, lung, neck, renal, urinary, cure all, modern medicine, stc30 benefits, best medicine, gout, home remedy, sinusitis, vertigo treatment, fda approved  "
     />
     <div className="bg">
@@ -111,10 +111,10 @@ const IndexPage = () => (
           <p>
             PHYTOCELLTEC MALUS DOMESTICA (UTWILLER SPATLAUBER). Also known as
             the swiss apple found in the swiss alps, it is a liposomal
-            preparation of apple stem cells. This is different from other apples,
-            it is sour in taste, it can renew its skin if cut and can stay up to
-            six months still fresh. It has similarities to the human cells and
-            has anti-aging properties.
+            preparation of apple stem cells. This is different from other
+            apples, it is sour in taste, it can renew its skin if cut and can
+            stay up to six months still fresh. It has similarities to the human
+            cells and has anti-aging properties.
           </p>
         </div>
       </article>
