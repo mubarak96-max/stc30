@@ -33,12 +33,11 @@ const Questions = () => {
         <h5>Answer🅰️</h5>
         <p>
           STC30 is neither a drug or a herb. It is designed as a Therapy which
-          gives your own body the ability to heal itself naturally by making use
-          of plant stem cells to boost your own human stem cells. Stem cells
-          regenerate by splitting and making more of their kind to repair organs
-          and replace dead or diseased cells. That is what STC30 does, the
-          diseases that are then addressed are many because your body will
-          determine where the stem cells need to go and replace any cells not
+          gives your own body the ability to heal itself naturally. The primary
+          cells regenerate by splitting and making more of their kind to repair
+          organs and replace dead or diseased cells. That is what STC30 does,
+          the diseases that are then addressed are many because your body will
+          determine where the cells need to go and replace any that are not
           functioning well. Most diseases are caused by cells misbehaving or not
           doing their job properly.
         </p>

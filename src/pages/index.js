@@ -8,9 +8,9 @@ import Questions from "../components/questions"
 const IndexPage = () => (
   <Layout>
     <SEO
-      title="SuperLife STC30 Stem Cell Therapy"
-      description="STC30 a plant-based stem cell therapy which uses stem cells to manage, prevent or address several health complications even those formerly known as incurable, manufactured by Mibelle Bio Chemistry in Switzerland and distributed worldwide by SuperLifeWorld based in Malaysia."
-      keywords="superlife, stem cell research, stem cell benefits, stem cell therapy, applications of stem cells, stem cell medicine, super life STC30, natural medicine, stc30 side effects, high blood pressure, cancer cure, the cure, sore throat, pink eye, skin peeling, eyes problems, allergies, kidney disease, lung, neck, renal, urinary, cure all, modern medicine, stc30 benefits, best medicine, gout, home remedy, sinusitis, vertigo treatment, fda approved  "
+      title="SuperLife STC30 Uganda"
+      description="STC30 manages, prevents and addresses several health complications even those formerly known as incurable, manufactured by Mibelle Bio Chemistry in Switzerland and distributed worldwide by SuperLifeWorld based in Malaysia."
+      keywords="superlife, super life STC30, natural medicine, stc30 side effects, high blood pressure, cancer cure, the cure, sore throat, pink eye, skin peeling, eyes problems, allergies, kidney disease, lung, neck, renal, urinary, cure all, modern medicine, stc30 benefits, best medicine, gout, home remedy, sinusitis, vertigo treatment, fda approved  "
     />
     <div className="bg">
       <Image5 />
@@ -33,23 +33,21 @@ const IndexPage = () => (
         <h2>what is STC30</h2>
         <div className="desc">
           <p>
-            STC30 is an acronym for Super Life Total Care 30 or Stem Cell 30
-            days of transformation, meaning that one has 30 days to transform
-            their lives using the stem cell. It is a plant-based stem cell, a
-            product ahead of its time which uses stem cells to manage, prevent
-            or address several health complications. It is the origin of stem
-            cell treatment in curing and prevention of diseases
+            STC30 is an acronym for Super Life Total Care 30 , meaning that one
+            has 30 days to transform their lives using the power of the STC30.
+            It is a product ahead of its time which manages, prevents or address
+            several health complications.
           </p>
           <img src="/s2.jpeg" alt="stem cell STC30" />
         </div>
       </article>
       <article className="info">
-        <h2>what are stem cells</h2>
+        <h2>what are the primary cells</h2>
         <div className="desc">
           <p>
-            Stem cells are unspecialized cells of the human body. They are able
-            to differentiate into any cell of the body and have the ability of
-            self-renewal.
+            These (stem) are unspecialized cells of the human body. They are
+            able to differentiate into any cell of the body and have the ability
+            of self-renewal.
           </p>
           <p>
             When life begins, a single giant cell (the zygote) replicates
@@ -58,23 +56,23 @@ const IndexPage = () => (
             of the person (the genetic code is the biological software that
             produces and defines each cell type in the body). After the body has
             been developed, among the trillions of cells in the body remains a
-            population of quiescent stem cells waiting to be called into action
-            to help in the repairs of damaged tissue. These stem cells abound
+            population of quiescent primary cells waiting to be called into
+            action to help in the repairs of damaged tissue. These cells abound
             everywhere. They are present in the body’s adipose tissue, bone
-            marrow, and in every single tissue compartment. The stem cells are
-            nature’s repair kit. They wait readily to repair tissues whenever
-            the need arises.
+            marrow, and in every single tissue compartment. They are nature’s
+            repair kit. They wait readily to repair tissues whenever the need
+            arises.
           </p>
           <img src="/tissue.jpg" alt="tissue formation with the stc30" />
           <p>
-            The body has over 220 different cell types but the stem cells don't
-            have any specific function and can become any of the spcialized
-            cells in the body such as nerve cells, skin cells, muscle cells,
-            hair cells, red blood cells, beta cells, cells of the heart, kidney,
-            liver, bones, brain, muscle etc. Cells are the building blocks of
-            our bodies, they form tissues, organs and then the body systems.
-            With over 50 trillion cells in our bodies, cellular health is
-            crucial to our health
+            The body has over 220 different cell types but the primary cells
+            don't have any specific function and can become any of the
+            specialized cells in the body such as nerve cells, skin cells,
+            muscle cells, hair cells, red blood cells, beta cells, cells of the
+            heart, kidney, liver, bones, brain, muscle etc. Cells are the
+            building blocks of our bodies, they form tissues, organs and then
+            the body systems. With over 50 trillion cells in our bodies,
+            cellular health is crucial to our health
           </p>
           {/* <img src="/types.jpg" alt="Uses of A stem cell" /> */}
         </div>
@@ -142,35 +140,33 @@ const IndexPage = () => (
         <h2>How does the STC30 work</h2>
         <div className="desc">
           <p>
-            How the adult stem cells work can be illustrated using the skin as
-            an example. The skin is used because it is the ‘guidepost’ for how
-            old a person is. As one gets older, the skin starts to thin and lose
-            its elasticity. It is the loss of this elasticity that causes it to
+            How these cells work can be illustrated using the skin as an
+            example. The skin is used because it is the ‘guidepost’ for how old
+            a person is. As one gets older, the skin starts to thin and lose its
+            elasticity. It is the loss of this elasticity that causes it to
             wrinkle and sag. Normally, the skin consistently renews itself,
             shedding old cells as new cells are created underneath. The birth of
-            these new skin cells is caused by the activities of the adult stem
-            cells.
+            these new skin cells is caused by the activities of the body's
+            primary cells.
           </p>
           <p>
-            As one ages, the adult stem cells decrease in number and gradually
-            become dysfunctional. If one is able to keep the regeneration of
-            skin tissue at more youthful levels by the addition of adult stem
-            cells, He/she would be able to maintain a youthful-looking skin for
-            a longer period of time. Practical and experimental evidence exist
-            to show that the repair of organs can be achieved with this
-            technology. However, whether this same technology can be used to
-            stop general aging is yet to be ascertained. Stem cells have the
-            ability to replicate more cells, replace damaged cells and feed
-            other cells
+            But as one ages, these cells decrease in number and gradually become
+            dysfunctional. If one is able to keep the regeneration of skin
+            tissue at more youthful levels by the addition of the primary cells,
+            He/she would be able to maintain a youthful-looking skin for a
+            longer period of time. Practical and experimental evidence exist to
+            show that the repair of organs can be achieved with this technology.
+            However, whether this same technology can be used to stop general
+            aging is yet to be ascertained. The STC30 have the ability to
+            replicate more cells, replace damaged cells and feed other cells
           </p>
           <img src="/s.png" alt="how the stc30 work" />
           <p>
-            When the STC30 goes into the body, it triggers production of stem
-            cells in the body. These stem cells then detect where there is need
-            for them, where there is an abnormal health condition or
-            disfunctioning of the cells and fix it while also rejuvenating and
-            regenerating the tissues and organs involved hence facilitating
-            healing.
+            When the STC30 goes into the body, it triggers production of more
+            cells in the body. Then the body detects where there is need for
+            them, where there is an abnormal health condition or disfunctioning
+            of the cells and fix it while also rejuvenating and regenerating the
+            tissues and organs involved hence facilitating healing.
           </p>
         </div>
       </article>
@@ -196,7 +192,7 @@ const IndexPage = () => (
             more energetic.
           </p>
           <p>
-            It
+            The STC30 also{" "}
             <strong>
               nourishes and regenerates cells and repairs damaged ones.
             </strong>
@@ -206,9 +202,9 @@ const IndexPage = () => (
             <strong>
               regenerates and repair damaged body tissues and organs
             </strong>
-            . Since cells are the building blocks of the body, stem cells
-            receive signals from the brain and go to damaged cells, tissues or
-            organs and start rebuilding them.
+            . Since cells are the building blocks of the body, they receive
+            signals from the brain and go to damaged cells, tissues or organs
+            and start rebuilding them.
           </p>
           <img src="/benefits.jpg" alt="benefits of stc30" />
           <p>

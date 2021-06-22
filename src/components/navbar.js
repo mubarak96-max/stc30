@@ -46,7 +46,7 @@ function Navbar() {
         <div className="nav-header">
           <div className="head">
             <div className="title">
-              <h1>stem cell therapy stc30</h1>
+              <h1>superlife stc30</h1>
             </div>
           </div>
         </div>
